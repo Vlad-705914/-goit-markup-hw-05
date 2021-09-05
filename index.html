@@ -141,30 +141,40 @@
           
           <ul class="works-list">
             <li class="works-item">
+             <div class="works-deck">
               <img class="img-works"
                 src="./images/portfolio/laptop.jpg"
                 alt="Программист пишет текст"
                 width="370"
                 height="294"
               />
-              </li>
+              <h3 class="works-head">Десктопные приложения</h3>
+            </div>
+            </li>
              
             
             <li class="works-item">
+              <div class="works-deck">
               <img class="img-works"
                 src="./images/portfolio/smartphone.jpg"
                 alt="Установка приложения на телефон"
                 width="370"
                 height="294"
               />
-            </li>
+            <h3 class="works-head">Мобильные приложения</h3>
+          </div>
+          </li>
+           
             <li class="works-item">
+              <div class="works-deck">
               <img class="img-works"
                 src="./images/portfolio/poketbook.jpg"
                 alt="Установка приложения на планшет"
                 width="370"
                 height="294"
               />
+            <h3 class="works-head">Дизайнерские решения</h3>
+            </div>
             </li>
           </ul>
         </div>
@@ -521,10 +531,15 @@
        </footer>
        <div class="backdrop is-hidden"data-modal >
         <div class="modal">
-          <button class="button-open" type="button"data-modal-close>text</button>
+          
+          <button class="button-open" type="button"  data-modal-close>
+            <svg class="modal-icon">
+              <use href="./images/sprite.svg#icon-Vector-close"></use>
+            </svg>
+          </button>
         </div>
       </div>
       
    <script src="./js/modal.js"></script>   
 </body>
-</html>
+</html>''
